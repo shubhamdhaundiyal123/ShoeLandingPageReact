@@ -1,15 +1,15 @@
 const Navigation=()=>{
     return(
-        <nav>
+        <nav className="container" >
             <div className="logo">
                 <img src="/images/brand_logo.png" alt="logo" />
             </div>
 
             <ul>
-                <li href="#" >Menu</li>
-                <li href="#" >Location</li>
-                <li href="#" >About</li>
-                <li href="#" >Contact</li>
+                <li className="list-items" href="#" >Menu</li>
+                <li className="list-items" href="#" >Location</li>
+                <li className="list-items" href="#" >About</li>
+                <li className="list-items" href="#" >Contact</li>
             </ul>
         <button>Login</button>
         </nav>
